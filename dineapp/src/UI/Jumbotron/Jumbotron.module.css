@@ -1,0 +1,60 @@
+.Jumbotron {
+    background-image: url("../../img/bg.png");
+    background-attachment: scroll;
+    height: 550px;
+    background-size: cover;
+    padding: 40px 0 0 0;
+}
+
+.Logo h1 {
+    font-weight: 700;
+    color: white;
+    text-align: left;
+}
+
+.Logo {
+    top: 0;
+    left: 0;
+}
+
+.Title h1, p {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
+    color: white;
+    text-align: left;
+}
+
+.Title {
+    padding: 70px 50px 70px 0;
+}
+
+@media (max-width: 767px) {
+
+    .Jumbotron {
+        text-align: center;
+        background-size: cover;
+        background-image: url("../../img/bg-mobile.png");
+        height: 800px;
+    }
+    .Logo {
+        margin-top: 300px;
+    }
+
+    .Logo h1 {
+        text-align: center;
+    }
+
+    .Title h1, p {
+        text-align: center;
+    }
+
+    .Title{
+        padding: 30px 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Title{
+        padding: 30px 30px;
+    }
+}
