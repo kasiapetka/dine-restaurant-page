@@ -1,0 +1,19 @@
+.Text{
+    margin-top: 200px;
+    text-align: left;
+    padding: 20px 30% 0 0;
+}
+
+.Text h2{
+    font-weight: 700;
+    color: #FFF;
+}
+
+.Text p{
+    color: #FFF;
+    font-weight: 400;
+}
+
+.Row{
+    background-color: black;
+}

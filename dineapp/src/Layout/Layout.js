@@ -1,6 +1,8 @@
 import React from 'react';
 import Jumbotron from "../UI/Jumbotron/Jumbotron";
-import FirstSection from '../UI/FirstSection/FirstSection'
+import FirstSection from '../UI/HeaderSections/FirstSection/FirstSection'
+import SecondSection from "../UI/HeaderSections/SecondSection/SecondSection";
+import MenuSection from "../UI/MenuSection/MenuSection";
 
 const layout = () => {
     return (
@@ -11,8 +13,13 @@ const layout = () => {
             <section>
                 <FirstSection/>
             </section>
+            <section>
+                <SecondSection/>
+            </section>
 
-
+            <section>
+                <MenuSection/>
+            </section>
         </React.Fragment>
     );
 };

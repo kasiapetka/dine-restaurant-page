@@ -1,0 +1,24 @@
+.ImageBar div{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(212,175,55);
+    margin: 6px 0;
+}
+
+.ImageBar {
+    margin-right: -75px;
+    margin-top: -350px;
+    float: right;
+}
+
+@media (max-width: 767px) and (min-width: 425px) {
+    .ImageBar {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 424px) {
+    .ImageBar {
+       display: none;
+    }
+}
