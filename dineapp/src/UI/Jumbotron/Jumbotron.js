@@ -8,7 +8,7 @@ const jumbotron = () => (
 
             <div fluid="true" className="col-md-5">
                 <div fluid="true" className={classes.Logo}>
-                    <h1>dine</h1>
+                    <h2>dine</h2>
                 </div>
 
                 <div fluid="true" className={classes.Title}>
@@ -16,6 +16,7 @@ const jumbotron = () => (
                     <p> Experience our seasonal menu in beautiful country surroundings.
                         Eat the freshest produce from the comfort of our farmhouse.</p>
                 </div>
+                <button className={classes.OrderButton}>book a table</button>
 
             </div>
             <div fluid="true" className="col-md-5"></div>

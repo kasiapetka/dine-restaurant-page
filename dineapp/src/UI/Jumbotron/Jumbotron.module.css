@@ -1,12 +1,12 @@
 .Jumbotron {
     background-image: url("../../img/bg.png");
     background-attachment: scroll;
-    height: 550px;
+    height: 600px;
     background-size: cover;
     padding: 40px 0 0 0;
 }
 
-.Logo h1 {
+.Logo h2 {
     font-weight: 700;
     color: white;
     text-align: left;
@@ -25,7 +25,26 @@
 }
 
 .Title {
-    padding: 70px 50px 70px 0;
+    padding: 70px 50px 20px 0;
+}
+
+.OrderButton{
+   float: left;
+   text-transform: uppercase;
+   padding: 15px 40px;
+   font-size: x-small;
+   color: #FFFFFF;
+   background-color: black;
+   border: 1px solid white;
+}
+
+.OrderButton:focus{
+    outline:0;
+}
+
+.OrderButton:hover, .OrderButton:active{
+    box-shadow: inset 0 0 32px 0 rgba(120,120,120,1);
+    font-weight: bold;
 }
 
 @media (max-width: 767px) {
@@ -34,13 +53,17 @@
         text-align: center;
         background-size: cover;
         background-image: url("../../img/bg-mobile.png");
-        height: 800px;
+        height: 850px;
+    }
+    .OrderButton{
+        float: none;
+        margin: auto;
     }
     .Logo {
         margin-top: 300px;
     }
 
-    .Logo h1 {
+    .Logo h2 {
         text-align: center;
     }
 
