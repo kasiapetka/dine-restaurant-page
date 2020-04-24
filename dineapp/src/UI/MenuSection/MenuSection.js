@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './MenuSection.module.css'
-import ImageBar from "../HeaderSections/SecondSection/ImageBar/ImageBar";
-
+import MenuItem from "./MenuItem/MenuItem";
+import ParagraphIcon from "../ParagraphIcon/ParagraphIcon";
 
 const menuSection = () => {
     const rowClassNames = "row "+classes.Row;
@@ -10,6 +10,9 @@ const menuSection = () => {
                 <div fluid="true" style={{margin: '0'}} className={rowClassNames}>
                     <div fluid="true" className="col-md-1"></div>
                     <div fluid="true" className="col-md-5">
+                        <div className={classes.Icon}>
+                            <ParagraphIcon/>
+                        </div>
                         <div fluid="true" className={classes.Text}>
                             <h2><span style={{display: 'block'}}>A few highlights</span>from our menu.</h2>
                             <p>We cater for all dietary requirements, but here's a glimpse at some
@@ -17,6 +20,12 @@ const menuSection = () => {
                         </div>
                     </div>
                     <div fluid="true" className="col-md-5">
+
+                        <div className={classes.MenuItems}>
+                            <MenuItem name='salad'/>
+                            <MenuItem name='sphagetti'/>
+                            <MenuItem name='dessert'/>
+                        </div>
 
                     </div>
                     <div fluid="true" className="col-md-1"></div>

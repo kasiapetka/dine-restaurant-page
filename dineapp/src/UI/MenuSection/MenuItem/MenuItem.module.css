@@ -1,0 +1,25 @@
+.Item{
+    padding: 20px 0;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(103, 103, 103, 0.51);
+}
+
+.Img{
+    width: 100%;
+    height: 100px;
+    z-index: 600;
+    background-size: cover;
+}
+
+.DessertImg{
+    background-image: url("../../../img/dessert.jpg");
+}
+
+.SphagettiImg{
+    background-image: url("../../../img/sphagetti.jpg");
+}
+
+.SaladImg{
+    background-image: url("../../../img/salad.jpg");
+}
+

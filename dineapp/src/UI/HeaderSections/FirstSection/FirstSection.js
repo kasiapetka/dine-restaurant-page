@@ -1,5 +1,6 @@
 import React, {useState, useRef, useEffect} from "react";
 import classes from './FirstSection.module.css'
+import ParagraphIcon from "../../ParagraphIcon/ParagraphIcon";
 
 require('intersection-observer');
 
@@ -30,16 +31,20 @@ const FirstSection = () => {
                         <div className={classes.Img}></div>
                     </div>
                     <div fluid="true" className="col-md-5">
+                        <div className={classes.Icon}>
+                            <ParagraphIcon/>
+                        </div>
                         <div fluid="true" className={classes.Text}>
                             <h2><span style={{display: 'block'}}>Enjoyable place</span> for all the family</h2>
                             <p>Our relaxed surroundings make dining with us a great experience for everyone.
                                 We can even arrange a tour of the farm before your meal.</p>
                         </div>
                     </div>
+
                     <div fluid="true" className="col-md-1"></div>
                 </div>
 
-                <div className={shapeClasses.join(' ')} ref={ref}></div>
+                <canvas className={shapeClasses.join(' ')} ref={ref}></canvas>
         </React.Fragment>
     );
 };

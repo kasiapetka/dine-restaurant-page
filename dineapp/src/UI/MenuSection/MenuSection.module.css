@@ -1,5 +1,5 @@
 .Text{
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: left;
     padding: 20px 30% 0 0;
 }
@@ -16,4 +16,11 @@
 
 .Row{
     background-color: black;
+}
+
+.MenuItems{
+    margin-top: 150px;
+}
+.Icon{
+    margin-top: 120px;
 }

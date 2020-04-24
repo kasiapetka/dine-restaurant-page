@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, useState} from "react";
 import classes from './SecondSection.module.css'
 import ImageBar from "./ImageBar/ImageBar";
+import ParagraphIcon from "../../ParagraphIcon/ParagraphIcon";
 require('intersection-observer');
 
 const SecondSection = () => {
@@ -27,6 +28,9 @@ const SecondSection = () => {
                 <div fluid="true" style={{margin: '0'}} className={rowClassNames}>
                     <div fluid="true" className="col-md-1"></div>
                     <div fluid="true" className="col-md-5">
+                        <div className={classes.Icon}>
+                            <ParagraphIcon/>
+                        </div>
                         <div fluid="true" className={classes.Text}>
                             <h2><span style={{display: 'block'}}>The most locally</span>sourced food.</h2>
                             <p>All our ingredients come directly from our farm or local fishery.
@@ -40,7 +44,7 @@ const SecondSection = () => {
                     <div fluid="true" className="col-md-1"></div>
 
                 </div>
-                <div className={shapeClasses.join(' ')} ref={ref}></div>
+                <canvas className={shapeClasses.join(' ')} ref={ref}></canvas>
         </React.Fragment>
     );
 };
