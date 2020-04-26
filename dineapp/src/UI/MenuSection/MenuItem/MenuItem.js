@@ -18,14 +18,16 @@ const menuItem =(props)=> {
     }
 
     return(
-    <div fluid="true" className={classes.Item}>
-        <div fluid="true" style={{margin: '0'}} className="row">
-            <div fluid="true" style={{padding: '0'}} className="col-md-4">
+    <div className={classes.Item}>
+        <div style={{margin: '0'}} className="row">
+            <div style={{padding: '0'}} className={classes.ImageCol}>
                 <div className={imgClasses.join(' ')}></div>
             </div>
-            <div fluid="true" className="col-md-1"></div>
-            <div fluid="true" className="col-md-7">
-                dfsdfsd
+            <div className="col-sm">
+                <div className={classes.DishText}>
+                    <p className={classes.DishHeader}>{props.header}</p>
+                    <p className={classes.DishSummary}>{props.children}</p>
+                </div>
             </div>
         </div>
     </div>
