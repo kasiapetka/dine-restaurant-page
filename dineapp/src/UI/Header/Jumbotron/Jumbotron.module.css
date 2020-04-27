@@ -1,5 +1,5 @@
 .Jumbotron {
-    background-image: url("../../img/bg.png");
+    background-image: url("../../../img/bg.png");
     background-attachment: scroll;
     height: 600px;
     background-size: cover;
@@ -52,7 +52,7 @@
     .Jumbotron {
         text-align: center;
         background-size: cover;
-        background-image: url("../../img/bg-mobile.png");
+        background-image: url("../../../img/bg-mobile.png");
         height: 850px;
     }
     .OrderButton{

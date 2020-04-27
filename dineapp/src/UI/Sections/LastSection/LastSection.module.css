@@ -1,0 +1,22 @@
+.Img{
+    background-image: url("../../../img/family1.jpg");
+    height: 550px;
+    background-size: cover;
+    margin-top: 150px;
+    box-shadow: 0 29px 28px 1px rgba(0,0,0,0.3);
+}
+.Text{
+    margin-top: 230px;
+    text-align: left;
+    padding: 20px 0 0 30%;
+}
+
+.Text h2{
+    font-weight: 700;
+    color: #373737;
+}
+
+.Text p{
+    color: #373737;
+    font-weight: 400;
+}

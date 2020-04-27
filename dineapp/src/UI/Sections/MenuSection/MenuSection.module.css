@@ -36,7 +36,10 @@
     .Text{
         text-align: center;
         margin-top: 20px;
-        padding: 0 30px;
+        padding: 0 0px;
+    }
+    .MenuItems{
+        margin-top: 40px;
     }
 }
 

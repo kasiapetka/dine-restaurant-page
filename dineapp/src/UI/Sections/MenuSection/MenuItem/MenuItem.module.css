@@ -1,0 +1,105 @@
+.Item {
+    padding: 20px 0;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(103, 103, 103, 0.51);
+}
+
+.ImageCol{
+    width: 120px;
+}
+
+.Line{
+    margin: 20px 0 0 120px;
+    float: left;
+    display: inline-block;
+    width: 30px;
+    height: 8px;
+    border-top: 1px solid rgb(119, 99, 27);
+}
+
+.Img {
+    width: 100%;
+    min-height: 90px;
+    background-size: cover;
+}
+
+.DessertImg {
+    background-image: url("../../../../img/dessert.jpg");
+}
+
+.SphagettiImg {
+    background-image: url("../../../../img/sphagetti.jpg");
+}
+
+.SaladImg {
+    background-image: url("../../../../img/salad.jpg");
+}
+
+.DishText {
+    float: left;
+    padding-left: 40px;
+}
+
+.DishHeader {
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+}
+
+.DishSummary{
+    text-align: left;
+    font-size: small;
+}
+
+@media (min-width: 2000px) {
+
+}
+
+@media (max-width: 767px){
+    .ImageCol{
+        width: 120px;
+    }
+
+    .Item {
+       margin: auto;
+       width: 80%;
+    }
+}
+
+@media (max-width: 575px) {
+    .Item {
+        margin: auto;
+        width: 90%;
+    }
+
+    .ImageCol{
+        width: 100%;
+    }
+    .Img {
+        min-height: 270px;
+    }
+
+    .Line{
+        display: none;
+    }
+    .DishHeader, .DishSummary {
+        text-align: center;
+    }
+    .DishText {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 424px) {
+    .DessertImg {
+        background-image: url("../../../../img/dessert-mobile.jpg");
+    }
+
+    .SphagettiImg {
+        background-image: url("../../../../img/sphagetti-mobile.jpg");
+    }
+
+    .SaladImg {
+        background-image: url("../../../../img/salad-mobile.jpg");
+    }
+}

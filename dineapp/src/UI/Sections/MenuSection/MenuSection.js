@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './MenuSection.module.css'
 import MenuItem from "./MenuItem/MenuItem";
-import ParagraphIcon from "../ParagraphIcon/ParagraphIcon";
+import ParagraphIcon from "../../ParagraphIcon/ParagraphIcon";
 
 const menuSection = () => {
     const rowClassNames = "row "+classes.Row;
