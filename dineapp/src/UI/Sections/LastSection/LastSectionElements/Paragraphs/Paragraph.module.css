@@ -1,0 +1,35 @@
+.Text {
+    margin-top: 230px;
+    text-align: left;
+    padding: 20px 0 0 30%;
+}
+
+.Text .Header {
+    font-weight: 700;
+    color: #373737;
+    font-size: xx-large;
+}
+
+.Text p {
+    color: #373737;
+    font-weight: 400;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+@media (min-width: 2000px) {
+    .Text p{
+        font-size: x-large;
+    }
+    .Text .Header {
+        font-size: xx-large;
+    }
+}
+
+@media (max-width: 767px) {
+    .Text {
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px 30px;
+    }
+}

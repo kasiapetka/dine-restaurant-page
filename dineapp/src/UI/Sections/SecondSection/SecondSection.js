@@ -32,7 +32,9 @@ const SecondSection = () => {
                             <ParagraphIcon/>
                         </div>
                         <div className={classes.Text}>
-                            <h2><span style={{display: 'block'}}>The most locally</span>sourced food.</h2>
+                            <span className={classes.Header}>
+                                <span style={{display: 'block'}}>The most locally</span>
+                                sourced food.</span>
                             <p>All our ingredients come directly from our farm or local fishery.
                             So you can be sure that you're eating the freshest, most sustainable food.</p>
                         </div>

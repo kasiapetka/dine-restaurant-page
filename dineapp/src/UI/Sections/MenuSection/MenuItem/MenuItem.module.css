@@ -52,7 +52,13 @@
 }
 
 @media (min-width: 2000px) {
+    .DishHeader {
+        font-size: large;
+    }
 
+    .DishSummary{
+        font-size: medium;
+    }
 }
 
 @media (max-width: 767px){

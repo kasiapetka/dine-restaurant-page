@@ -1,0 +1,35 @@
+.OrderButton {
+    float: left;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    font-size: x-small;
+    color: #FFFFFF;
+    background-color: black;
+    border: 1px solid black;
+    margin: 10px 0 0 30%;
+}
+
+.OrderButton:focus {
+    outline: 0;
+}
+
+.OrderButton:hover, .OrderButton:active {
+    box-shadow: inset 0 0 32px 0 rgba(120, 120, 120, 1);
+    font-weight: bold;
+}
+
+.Buttons {
+    margin-top: 50px;
+}
+
+@media (min-width: 2000px) {
+    .OrderButton {
+        font-size: medium;
+    }
+    .Text p{
+        font-size: x-large;
+    }
+    .Text .Header {
+        font-size: xx-large;
+    }
+}

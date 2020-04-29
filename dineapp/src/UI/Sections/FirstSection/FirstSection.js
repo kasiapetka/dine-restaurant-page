@@ -35,15 +35,15 @@ const FirstSection = () => {
                             <ParagraphIcon/>
                         </div>
                         <div className={classes.Text}>
-                            <h2><span style={{display: 'block'}}>Enjoyable place</span> for all the family</h2>
+                            <span className={classes.Header}>
+                                <span style={{display: 'block'}}>Enjoyable place</span>
+                                for all the family</span>
                             <p>Our relaxed surroundings make dining with us a great experience for everyone.
                                 We can even arrange a tour of the farm before your meal.</p>
                         </div>
                     </div>
-
                     <div className="col-md-1"></div>
                 </div>
-
                 <canvas className={shapeClasses.join(' ')} ref={ref}></canvas>
         </React.Fragment>
     );

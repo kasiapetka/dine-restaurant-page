@@ -13,14 +13,17 @@
     padding: 20px 30% 0 0;
 }
 
-.Text h2{
+.Text .Header {
     font-weight: 700;
     color: #373737;
+    font-size: xx-large;
 }
 
-.Text p{
+.Text p {
     color: #373737;
     font-weight: 400;
+    font-size: medium;
+    margin-top: 10px;
 }
 
 .Shape{
@@ -61,6 +64,12 @@
     .Img{
         margin: 30px auto 0 auto;
         height: 900px;
+    }
+    .Text p{
+        font-size: x-large;
+    }
+    .Text .Header {
+        font-size: xx-large;
     }
 }
 

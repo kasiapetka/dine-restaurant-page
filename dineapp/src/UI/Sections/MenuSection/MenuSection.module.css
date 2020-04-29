@@ -4,14 +4,17 @@
     padding: 20px 30% 0 0;
 }
 
-.Text h2{
+.Text .Header {
     font-weight: 700;
-    color: #FFF;
+    color: #ffffff;
+    font-size: xx-large;
 }
 
-.Text p{
-    color: #FFF;
+.Text p {
+    color: #ffffff;
     font-weight: 400;
+    font-size: medium;
+    margin-top: 10px;
 }
 
 .Row{
@@ -20,6 +23,7 @@
 
 .MenuItems{
     margin-top: 150px;
+    padding-bottom: 100px;
 }
 .Icon{
     margin-top: 120px;
@@ -36,7 +40,7 @@
     .Text{
         text-align: center;
         margin-top: 20px;
-        padding: 0 0px;
+        padding: 0 30px;
     }
     .MenuItems{
         margin-top: 40px;
