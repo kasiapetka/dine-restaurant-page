@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from "react";
 import classes from './SecondSection.module.css'
-import ImageBar from "./ImageBar/ImageBar";
+import ImageBar from "../../ImageBar/ImageBar";
 import ParagraphIcon from "../../ParagraphIcon/ParagraphIcon";
 require('intersection-observer');
 

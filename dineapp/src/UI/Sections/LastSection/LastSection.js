@@ -50,8 +50,8 @@ const LastSection = () => {
         setToggleButtons(buttons);
     }, [buttonActive]);
 
-    const displayButtons = toggleButtons.map(button => {
-        return <div style={{margin: '0'}} className="row">
+    const displayPrimaryButtons = toggleButtons.map(button => {
+        return <React.Fragment>
             <div style={{padding: '0'}} className="col-2">
                 {button.active ? <hr className={classes.Line}/> : <hr className={classes.LineInactive}/>}
             </div>
@@ -61,12 +61,25 @@ const LastSection = () => {
                     className={button.active ? activeClasses.join(' ') : inactiveClasses.join(' ')}
                     onClick={() => setActive(button.id)}>{button.label}</button>
             </div>
-        </div>
+        </React.Fragment>
+    });
+
+    const displaySecondaryButtons = toggleButtons.map(button => {
+        return <React.Fragment>
+            <div className="col-sm-4">
+                <button
+                    key={button.id}
+                    className={button.active ? activeClasses.join(' ') : inactiveClasses.join(' ')}
+                    onClick={() => setActive(button.id)}>{button.label}</button>
+            {button.active ? <hr className={classes.Line}/> : <hr className={classes.LineInactive}/>}
+            </div>
+        </React.Fragment>
     });
 
     return <LastSectionElements
         buttonActive={buttonActive}
-        displayButtons={displayButtons}
+        primaryButtons={displayPrimaryButtons}
+        secondaryButtons={displaySecondaryButtons}
         imgClasses={imgClasses}
     />;
 };

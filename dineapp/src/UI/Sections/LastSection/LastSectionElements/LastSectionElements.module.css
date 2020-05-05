@@ -18,18 +18,47 @@
     font-weight: bold;
 }
 
-.Buttons {
+.PrimaryButtons {
     margin-top: 50px;
 }
+
+.SecondaryButtons {
+    display: none;
+}
+
 
 @media (min-width: 2000px) {
     .OrderButton {
         font-size: medium;
     }
-    .Text p{
+
+    .Text p {
         font-size: x-large;
     }
+
     .Text .Header {
         font-size: xx-large;
+    }
+}
+
+@media (max-width: 767px) {
+    .PrimaryButtons {
+        display: none;
+    }
+    .SecondaryButtons{
+        display: block;
+    }
+    .OrderButton {
+        float: none;
+        margin: auto;
+    }
+}
+@media (max-width: 575px) {
+    .PrimaryButtons {
+        display: none;
+    }
+
+    .SecondaryButtons{
+        margin-top: 50px;
     }
 }
