@@ -26,6 +26,11 @@
     display: none;
 }
 
+.ImageBar {
+    margin-top: -580px;
+    margin-left: -30px;
+    float: left;
+}
 
 @media (min-width: 2000px) {
     .OrderButton {
@@ -52,6 +57,10 @@
         float: none;
         margin: auto;
     }
+    .ImageBar {
+        margin-top: -580px;
+        margin-left: 20px;
+    }
 }
 @media (max-width: 575px) {
     .PrimaryButtons {
@@ -60,5 +69,10 @@
 
     .SecondaryButtons{
         margin-top: 50px;
+    }
+}
+@media (max-width: 424px) {
+    .ImageBar {
+        display: none;
     }
 }

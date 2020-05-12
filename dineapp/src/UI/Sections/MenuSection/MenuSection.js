@@ -37,7 +37,6 @@ const menuSection = () => {
                                 with dark chocolate shaving.
                             </MenuItem>
                         </div>
-
                     </div>
                     <div className="col-md-1"></div>
 

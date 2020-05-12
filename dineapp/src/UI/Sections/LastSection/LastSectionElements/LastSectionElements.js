@@ -8,7 +8,9 @@ const lastSectionElements = (props) => (
         <div className="col-md-1"></div>
         <div className="col-md-5">
             <div className={props.imgClasses.join(' ')}></div>
-            <ImageBar/>
+            <div className={classes.ImageBar}>
+                <ImageBar/>
+            </div>
         </div>
         <div className="col-md-5">
             <div className={classes.SecondaryButtons}>
@@ -30,7 +32,6 @@ const lastSectionElements = (props) => (
                 </div>
             </div>
         </div>
-
         <div className="col-md-1"></div>
     </div>
 );

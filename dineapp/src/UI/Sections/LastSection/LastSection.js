@@ -76,11 +76,15 @@ const LastSection = () => {
         </React.Fragment>
     });
 
-    return <LastSectionElements
-        buttonActive={buttonActive}
-        primaryButtons={displayPrimaryButtons}
-        secondaryButtons={displaySecondaryButtons}
-        imgClasses={imgClasses}
-    />;
+    return <React.Fragment>
+        <LastSectionElements
+            buttonActive={buttonActive}
+            primaryButtons={displayPrimaryButtons}
+            secondaryButtons={displaySecondaryButtons}
+            imgClasses={imgClasses}
+        />
+        <canvas className={classes.Shape} ></canvas>
+    </React.Fragment>
+    ;
 };
 export default LastSection;

@@ -4,6 +4,7 @@ import FirstSection from '../UI/Sections/FirstSection/FirstSection'
 import SecondSection from "../UI/Sections/SecondSection/SecondSection";
 import MenuSection from "../UI/Sections/MenuSection/MenuSection";
 import LastSection from "../UI/Sections/LastSection/LastSection";
+import Footer from "../UI/Footer/Footer";
 
 const layout = () => {
     return (
@@ -23,6 +24,9 @@ const layout = () => {
             <section>
                 <LastSection/>
             </section>
+            <footer>
+                <Footer/>
+            </footer>
         </React.Fragment>
     );
 };

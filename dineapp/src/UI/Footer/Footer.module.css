@@ -1,0 +1,37 @@
+.Row{
+    background-color: black;
+    height: 250px;
+}
+.Jumbotron {
+    background-image: url("../../img/footer.png");
+    background-attachment: scroll;
+    height: 250px;
+    background-size: cover;
+    background-color: #151515;
+}
+
+.OrderButton{
+    float: right;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    font-size: x-small;
+    color: #FFFFFF;
+    margin-top: 100px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.OrderButton:focus{
+    outline:0;
+}
+
+.OrderButton:hover, .OrderButton:active{
+    box-shadow: inset 0 0 32px 0 rgba(120,120,120,1);
+    font-weight: bold;
+}
+
+.Title{
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 100px auto 0 auto;
+}

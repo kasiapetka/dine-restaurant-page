@@ -41,7 +41,9 @@ const SecondSection = () => {
                     </div>
                     <div className="col-md-5">
                         <div className={classes.Img}></div>
-                        <ImageBar/>
+                        <div className={classes.ImageBar}>
+                            <ImageBar/>
+                        </div>
                     </div>
                     <div className="col-md-1"></div>
 
